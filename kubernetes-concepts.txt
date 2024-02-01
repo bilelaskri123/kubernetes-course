@@ -1,0 +1,17 @@
+Pod: refers to one or more containers that should be controlled as a single 
+     application. A pod encapsulates application containers, storage resources,
+     a unique network ID and other configuration on how to run the containers
+    
+Node: is a worker machine in kubernetes and may be either a virtual or a physical
+      machine, depending on the cluster. Each node is managed by the control plane
+      A node can have multiple pods, and the kubernetes control plane automatically
+      handles scheduling the pods across the Nodes in the cluster
+
+Cluster: is a set of nodes that run containerized applications. Kubernetes
+         clusters allow containers to run across multiple machines and 
+         environments: virtual, physical, cloud-based and on-promises.
+         Kubernetes containers are not restricted to a specific operating
+         system, unlike virtual machines. Instead, they are able to share
+         operating systems and run anywhere
+
+Namespaces:     
